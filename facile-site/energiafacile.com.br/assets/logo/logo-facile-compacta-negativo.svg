@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 72" width="256" height="72" role="img" aria-label="Facile Soluções em Energia">
+<style>@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&amp;family=Inter:wght@500&amp;display=swap');</style>
+<g transform="translate(0 4)"><defs><linearGradient id="gxavr" gradientUnits="userSpaceOnUse" x1="12" y1="58" x2="46" y2="8"><stop offset="0" stop-color="#1FD27F"/><stop offset="1" stop-color="#C6F36B"/></linearGradient></defs>
+<path d="M22 57 V29 a16 16 0 0 1 16 -16 h2" fill="none" stroke="url(#gxavr)" stroke-width="10" stroke-linecap="round"/>
+<path d="M12 35 H33" fill="none" stroke="url(#gxavr)" stroke-width="10" stroke-linecap="round"/>
+<circle cx="52" cy="13" r="7.5" fill="#C6F36B"/></g>
+<text x="82" y="58" font-family="Sora, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="64" letter-spacing="-2.2" fill="#F2F7F3">facile</text>
+
+</svg>

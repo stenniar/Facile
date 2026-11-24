@@ -1,0 +1,42 @@
+﻿FACILE SOLUÇÕES EM ENERGIA · SITE + SIMULADOR (versão 2)
+========================================================
+energiafacile.com.br/  -> PASTA RAIZ (envie o CONTEÚDO dela para a hospedagem)
+  index.html          site completo com o simulador da planilha
+  robots.txt, sitemap.xml
+  assets/og-facile.png    imagem de compartilhamento (WhatsApp, redes)
+  assets/logo/
+    logo-facile.svg/.png                 fundo claro (com "Soluções em energia")
+    logo-facile-negativo.svg/.png        fundo escuro
+    logo-facile-compacta-negativo.svg/.png  fundo escuro, sem descritor (menu/rodapé)
+    icone-facile.svg / -512.png / -192.png  ícone (favicon, perfil de redes, app)
+    icone-facile-verde.svg / -512.png    ícone alternativo
+
+LOGO
+- Símbolo: um "f" em traço contínuo cuja curva termina num sol (fonte de energia).
+- Tipografia: Sora (palavra "facile") e Inter (descritor). Cores: verde #1FD27F,
+  verde escuro #0FA968, lima #C6F36B, base #06140F.
+- Os .svg usam as fontes Sora/Inter: no site carregam sozinhas; em programas de design,
+  use os .png ou instale Sora e Inter (Google Fonts, gratuitas).
+
+SIMULADOR
+- Tarifas das 36 distribuidoras no index.html (variável TARIFAS), iguais à aba "Tabelas".
+- Cálculo igual à aba "Simulação" (validado: conta R$ 420,09, nova conta R$ 386,36,
+  economia R$ 404,68/ano no caso de exemplo da planilha).
+- Pessoa física ou jurídica; entrada por valor da conta (R$) ou consumo (kWh).
+- PJ: porte com faixas de consumo; acima de 15.000 kWh/mês orienta Mercado Livre.
+- Fidelidade por plano (15% sem; 20% 12 meses; 25% 24 meses) conforme a planilha (Simulação!A11).
+- Desconto aplicado sobre a energia compensada (TE + TUSD sem tributos), como na planilha;
+  o simulador mostra a conta do desconto linha a linha.
+- Removido o "Benefício de ICMS" opção 2 da planilha: gerava imposto negativo.
+- I-REC estimado por ano = arredondar.para.cima(consumo x 1,7147 x 12 / 1000) (aba Eficiencia_energetica).
+- Ar-condicionado por potência: 9.000, 12.000, 18.000 e 24.000 BTU (inverter).
+- Classe na fatura: PF (B1, B2) e PJ (B3, B2, A4, A3a, A3, A2/A1, AS). Grupo A bloqueia a
+  simulação e orienta para o Mercado Livre.
+- Guia da fatura: gaveta interativa com exemplo de conta (classe, ligação, consumo, total, Grupo A).
+- Equipamentos atuais por categoria (celulares, portão, cerca, carro elétrico, copa, escritório etc.).
+- LinkedIn: https://www.linkedin.com/company/facileenergia
+- WhatsApp de contato: (84) 9 7400-5115.
+
+PENDÊNCIAS
+- Página politica-de-privacidade/ (link no rodapé).
+- Confirmar números institucionais (15 anos, 500 MW, 400+ consultorias, 100% renovável).
